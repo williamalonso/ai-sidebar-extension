@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="tabs">
+    <button id="btn-chatgpt" data-ai="chatgpt">ChatGPT</button>
+    <button id="btn-gemini" data-ai="gemini">Gemini</button>
+    <!-- <button id="btn-deepseek" data-ai="deepseek">DeepSeek</button> -->
+    <button id="btn-claude" data-ai="claude">Claude</button>
+    <!-- <button id="btn-copilot" data-ai="copilot">Copilot</button> -->
+  </div>
+
+  <div class="content" id="welcome-message">
+    <p>Escolha uma IA acima 👆</p>
+  </div>
+  
+  <iframe id="ai-frame" style="display: none;"></iframe>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
