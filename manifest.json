@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "AI Sidebar Hub",
   "version": "2.0",
-  "description": "Sidebar real com múltiplas IAs",
+  "description": "Browser sidebar with multiple AI assistants",
   "permissions": [
     "sidePanel",
     "declarativeNetRequest",
@@ -19,7 +19,7 @@
   "declarative_net_request": {
     "rule_resources": [
       {
-        "id": "remover_bloqueio_iframe",
+        "id": "remove_iframe_block",
         "enabled": true,
         "path": "rules.json"
       }
@@ -29,7 +29,7 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Abrir AI Sidebar"
+    "default_title": "Open AI Sidebar"
   },
   "side_panel": {
     "default_path": "sidepanel.html"
